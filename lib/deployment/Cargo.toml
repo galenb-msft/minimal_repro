@@ -1,0 +1,17 @@
+[package]
+name = "minimal_repro"
+version = "1.0.0"
+authors = [""]
+edition = "2018"
+publish = false
+description = ""
+keywords = ["", "", ""]
+readme = ""
+
+[lib]
+name = "minimal_repro"
+path = "minimal_repro.rs"
+
+[dependencies]
+bindings = { package="windows_bindings", path = "bindings" }
+
